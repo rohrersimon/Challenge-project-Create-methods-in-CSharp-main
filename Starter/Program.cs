@@ -1,7 +1,7 @@
 ﻿using System;
 
 /*
-Console minigame
+Console minigame similar to Snake
 */
 
 Random random = new Random();
