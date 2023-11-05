@@ -138,6 +138,7 @@ void ShowFood()
     // Update food to a random index
     food = random.Next(0, foods.Length);
 
+    // Change: Food can't spawn on the player
     // Update food position to a random location
     foodX = random.Next(0, width - player.Length);
     foodY = random.Next(0, height - 1);
